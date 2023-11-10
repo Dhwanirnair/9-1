@@ -111,8 +111,8 @@ function car1_down(){
 }
 
 function car1_left(){
-	if(car1_y >=0){
-		car1_y = car1_y - 10;
+	if(car1_x >=0){
+		car1_x = car1_x - 10;
 		console.log("When up arrow pressed, x = " + car1_x + " | y = " + car1_y);
 		uploadBackground();
 		uploadcar1();
@@ -121,8 +121,8 @@ function car1_left(){
 }
 
 function car1_right(){
-	if(car1_y <=700){
-		car1_y = car1_y + 10;
+	if(car1_x <=700){
+		car1_x = car1_x + 10;
 		console.log("When up arrow pressed, x = " + car1_x + " | y = " + car1_y);
 		uploadBackground();
 		uploadcar1();
@@ -153,8 +153,8 @@ function car2_down(){
 }
 
 function car2_left(){
-	if(car2_y >=0){
-		car2_y = car2_y - 10;
+	if(car2_x >=0){
+		car2_x = car2_x - 10;
 		console.log("When up arrow pressed, x = " + car2_x + " | y = " + car2_y);
 		uploadBackground();
 		uploadcar1();
@@ -163,8 +163,8 @@ function car2_left(){
 }
 
 function car2_right(){
-	if(car2_y <=700){
-		car2_y = car2_y + 10;
+	if(car2_x <=700){
+		car2_x = car2_x + 10;
 		console.log("When up arrow pressed, x = " + car2_x + " | y = " + car2_y);
 		uploadBackground();
 		uploadcar1();
